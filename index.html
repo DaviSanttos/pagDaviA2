@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <title>Prova</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Calculadora Media</h1>
+        <main>
+            <section>
+            <form>
+                <label for="nota1" id="nota1">nota1:</label>
+                <input type="number" name="nota1">
+                <label for="nota2" id="nota2">nota2:</label>
+                <input type="number" name="nota2">
+                <label for="nota3" id="nota3">nota3:</label>
+                <input type="number" name="nota3">
+                <label for="nota4" id="nota4">nota4:</label>
+                <input type="number" name="nota4">
+                <button id="enviar" name="enviar" type="submit" onclick="media(this.form)">enviar</button>
+            </form>
+            <label for="result">Resultado: </label>
+            <article id="resp"></article>
+        </section>
+        </main>
+    </body>
+</html>
